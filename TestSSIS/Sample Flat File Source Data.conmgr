@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
-  DTS:ObjectName="Flat File Connection Manager"
+  DTS:ObjectName="Sample Flat File Source Data"
   DTS:DTSID="{4B14E64F-8FE7-4B79-A7AB-1BDCBAD0A146}"
   DTS:CreationName="FLATFILE">
   <DTS:ObjectData>
@@ -19,7 +19,7 @@
           DTS:DataType="4"
           DTS:TextQualified="True"
           DTS:ObjectName="AverageRate"
-          DTS:DTSID="{ADE2C43F-EC02-4112-9358-C638D327D199}"
+          DTS:DTSID="{B360705E-FEAF-4EE1-ABE6-22B1946A2052}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -28,7 +28,7 @@
           DTS:DataType="130"
           DTS:TextQualified="True"
           DTS:ObjectName="CurrencyID"
-          DTS:DTSID="{EECD8C41-4863-4029-B1E0-2F9147402B9E}"
+          DTS:DTSID="{B61E7408-CE3A-4D09-B7E3-92D7A91B79D4}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -36,7 +36,7 @@
           DTS:DataType="133"
           DTS:TextQualified="True"
           DTS:ObjectName="CurrencyDate"
-          DTS:DTSID="{DBD98441-56B8-43C9-B511-CA0333CCA8EE}"
+          DTS:DTSID="{C944BA3F-9281-4484-B59E-99D143486F0E}"
           DTS:CreationName="" />
         <DTS:FlatFileColumn
           DTS:ColumnType="Delimited"
@@ -44,7 +44,7 @@
           DTS:DataType="4"
           DTS:TextQualified="True"
           DTS:ObjectName="EndOfDayRate"
-          DTS:DTSID="{94F361BE-558F-48E7-8FB2-5B2450155323}"
+          DTS:DTSID="{14999CD9-EDD3-4B8C-89B1-187487B2DECF}"
           DTS:CreationName="" />
       </DTS:FlatFileColumns>
     </DTS:ConnectionManager>
